@@ -1,10 +1,17 @@
 # Kickstarting with Excel
 
 ## Overview of Project
+This analysis found that Kickstarter projects focused on the theater may improve their chances of success by timing their launches close to mid-year and by 
+keeping their fundraising goals relatively modest in most cases.   
 
 ### Purpose
+In order to provide fundraising insights for theater entrepreneurs, we analyzed fundraising campaign outcomes for certain Kickstarter projects based on 
+variables including launch dates and fundraising goal amounts. Specifically, the analysis looked at success rates for 1,369 theater projects based on their
+month of launch and for 1,047 plays based on the amount of money their creators sought to raise.  
 
 ## Analysis and Challenges
+Starting with data containing details about nearly 40,000 Kickstarter projects, we analyzed 1,393 campaigns in the theater category. Of those, 1,066 were plays. The
+earliest campaigns in the overall dataset launched
 
 ### Analysis of Outcomes Based on Launch Date
 
@@ -17,6 +24,7 @@ Added a column (T) to the Kickstarter data to extract the month names from the l
 ## Results
 
 - What are two conclusions you can draw about the Outcomes based on Launch Date?
+
 
 - What can you conclude about the Outcomes based on Goals?
 Kickstarter campaigns for plays have the highest chance of success if they set the fundraising bar very low. More than three-quarters of plays targeting less than 
