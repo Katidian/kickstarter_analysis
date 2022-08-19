@@ -17,6 +17,7 @@ live at the time of data compilation. The earliest completed theater campaign in
 
 
 ### Analysis of Outcomes Based on Launch Date
+![Chart showing theater Kickstarter outcomes based on month of launch](
 
 ### Analysis of Outcomes Based on Goals
 
@@ -30,7 +31,7 @@ Another issue arose from how the original data set combined the categories and s
 Splitting these into two variables, each in its own column, made it much easier to analyze the data. We accomplished this by copying the data from the "Category and Subcategory" column into another column and then using the Convert Text to Columns Wizard, selecting the backslash (\) as the delimiter for splitting the string. 
 This resulted in much more usable categories and subcategories:
 
-
+![screenshot of Parent Category and Subcategory fields in Excel](Categories_Screenshot.png)
 
 
 
