@@ -17,9 +17,10 @@ live at the time of data compilation. The earliest completed theater campaign in
 
 
 ### Analysis of Outcomes Based on Launch Date
-![Chart showing theater Kickstarter outcomes based on month of launch](
+![Line chart showing theater Kickstarter outcomes based on month of launch](Theater_Outcomes_vs_Launch.png)
 
 ### Analysis of Outcomes Based on Goals
+![Line Chart showing Kickstarter outcomes for plays based on fundraising goal categories](
 
 ### Challenges and Difficulties Encountered
 The original data set presented a few challenges that required some cleanup. For example, we had to convert dates from Unix timestamps to a more reader-friendly format using 
