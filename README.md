@@ -6,20 +6,34 @@ keeping their fundraising goals relatively modest in most cases.
 
 ### Purpose
 In order to provide fundraising insights for theater entrepreneurs, we analyzed fundraising campaign outcomes for certain Kickstarter projects based on 
-variables including launch dates and fundraising goal amounts. Specifically, the analysis looked at success rates for 1,369 theater projects based on their
-month of launch and for 1,047 plays based on the amount of money their creators sought to raise.  
+variables including launch dates and fundraising goal amounts. Using the results of this analysis, Kickstarter project leaders can budget more realistically and 
+choose the optimal timing for project launch.
 
 ## Analysis and Challenges
-Starting with data containing details about nearly 40,000 Kickstarter projects, we analyzed 1,393 campaigns in the theater category. Of those, 1,066 were plays. The
-earliest campaigns in the overall dataset launched
+Starting with data about nearly 40,000 Kickstarter projects, we looked at success rates for 1,369 theater projects based on their month of launch and for 1,047 
+plays based on the amount of money their creators sought to raise. Our analysis excluded 24 theater projects, including 19 plays, whose Kickstarter campaigns were 
+live at the time of data compilation. The earliest completed theater campaign in our dataset launched in July 2010, while the latest began in March 2017.
+
+
 
 ### Analysis of Outcomes Based on Launch Date
 
 ### Analysis of Outcomes Based on Goals
 
 ### Challenges and Difficulties Encountered
-Added a column (T) to the Kickstarter data to extract the month names from the launch dates in column S.
-=TEXT(S2,"mmmm")
+The original data set presented a few challenges that required some cleanup. For example, we had to convert dates from Unix timestamps to a more reader-friendly format using 
+the following formula:
+
+`=(((J2/60)/60)/24)+DATE(1970,1,1)`
+
+Another issue arose from how the original data set combined the categories and subcategories for each project into a single string in Excel (e.g. "theater/plays"). 
+Splitting these into two variables, each in its own column, made it much easier to analyze the data. We accomplished this by copying the data from the "Category and Subcategory" column into another column and then using the Convert Text to Columns Wizard, selecting the backslash (\) as the delimiter for splitting the string. 
+This resulted in much more usable categories and subcategories:
+
+
+
+
+
 
 ## Results
 
